@@ -1,0 +1,43 @@
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  max-width: 460px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+
+  h1 {
+    font-size: 40px;
+    color: white;
+    span {
+      background: linear-gradient(269deg, #c0b7e8 -3.72%, #8176af 82.17%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  p{
+   color: white;
+   font-size: 16px;
+   line-height: 1.1;
+   letter-spacing: 1px;
+  }
+
+  div {
+    align-items: center;
+    display: flex;
+
+    img {
+      cursor: pointer;
+    }
+  }
+}
+
+.photo{
+   border-radius: 80px 90px 90px 200px;
+   border: 14px solid #00000021;
+}
