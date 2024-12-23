@@ -22,11 +22,27 @@
       font-weight: 700;
       font-size: 12px;
    }
+
+   @media (max-width:990px) {
+      display: none;
+   }
+}
+
+.burger{
+   display: none;
+   cursor: pointer;
+   @media (max-width:990px) {
+      display: block;
+   }
 }
 
 .btns{
    display: flex;
    gap: 40px;
+
+   @media (max-width:990px) {
+      display: none;
+   }
 }
 
 .btn{

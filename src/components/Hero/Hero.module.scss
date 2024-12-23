@@ -3,6 +3,11 @@
   justify-content: space-between;
   align-items: center;
   padding-bottom: 100px;
+
+  @media (max-width: 960px) {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
 }
 
 .box {
@@ -32,8 +37,19 @@
     align-items: center;
     display: flex;
 
+    button{
+      @media (max-width: 960px) {
+        margin: 0 auto;
+        padding: 17px 68px;
+      }
+    }
+
     img {
       cursor: pointer;
+
+      @media (max-width: 960px) {
+        display: none;
+      }
     }
   }
 }

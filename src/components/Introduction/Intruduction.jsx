@@ -54,6 +54,27 @@ const Intruduction = () => {
               <Button>LET'S GET IN TOUCH</Button>
             </div>
           </div>
+
+          <div className={s.first}>
+            <div className={s.left}>
+              <h2>WHY BUILD</h2>
+              <div className={s.title}>
+                <h2>WITH HYDRA?</h2>
+                <img src="/arrow.png" alt="arrow" />
+              </div>
+            </div>
+
+            <div className={s.text}>
+              <p>
+                Vitae sapien pellentesque habitant morbi tristique senectus et
+                netus et. Feugiat nibh sed pulvinar proin gravida hendrerit
+                lectus. Mi sit amet mauris commodo quis imperdiet massa
+                tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare
+                lectus sit amet est placerat in. Lectus magna fringilla urna
+                porttitor rhoncus vitae.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

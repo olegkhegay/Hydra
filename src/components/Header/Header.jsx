@@ -21,6 +21,8 @@ const Header = () => {
                   <a href="">HOW TO</a>
                </div>
 
+               <img className={s.burger} src="/burger.svg" alt="" />
+
                <div className={s.btns}>
                   <button className={s.btn}>CONTACT US</button>
                   <Button>JOIN HYDRA</Button>
