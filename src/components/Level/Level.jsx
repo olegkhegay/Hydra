@@ -8,7 +8,9 @@ const Level = () => {
         <div className="container">
           <div className={s.wrap}>
 
-            <div className={s.card}>
+            <button><img src="/button-left.svg" alt="left" /></button>
+
+            <div className={s.card + ' ' + s.card1}>
               <h2>01</h2>
               <p>3D Conception <br />
               & Design</p>
@@ -29,6 +31,7 @@ const Level = () => {
               Deploy</p>
             </div>
             
+            <button><img src="/button-right.svg" alt="right" /></button>
           </div>
         </div>
       </div>

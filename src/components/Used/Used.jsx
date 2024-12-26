@@ -36,6 +36,28 @@ const Used = () => {
             <img src="/oculus.png" alt="" />
             <img src="/vive.png" alt="" />
           </div>
+
+          <div className={s.first}>
+            <div className={s.left}>
+              <h2>Introduction</h2>
+              <div className={s.title}>
+                <h2>To Hydra VR</h2>
+                <img src="/arrow.png" alt="arrow" />
+              </div>
+            </div>
+
+            <div className={s.text}>
+              <p>
+                Vitae sapien pellentesque habitant morbi tristique senectus et
+                netus et. Feugiat nibh sed pulvinar proin gravida hendrerit
+                lectus. Mi sit amet mauris commodo quis imperdiet massa
+                tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare
+                lectus sit amet est placerat in. Lectus magna fringilla urna
+                porttitor rhoncus vitae.
+              </p>
+            </div>
+          </div>
+
         </div>
       </section>
     </>

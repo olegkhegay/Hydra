@@ -45,3 +45,43 @@
   flex-wrap: wrap;
   align-items: center;
 }
+
+.first{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-top: 70px;
+
+  .left{
+      h2{
+          color: white;
+          font-size: 36px;
+          font-weight: 700;
+      }
+
+      .title{
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
+          h2{
+              color: white;
+              font-size: 36px;
+              font-weight: 300;
+          }
+      }
+      
+  }
+  
+  .text{
+      max-width: 650px;
+      width: 100%;
+
+      p{
+          color: white;
+          font-size: 16px;
+          font-weight: 400;
+      }
+  }
+
+}
